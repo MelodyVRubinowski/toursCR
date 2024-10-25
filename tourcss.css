@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.titulo_principal {
+    text-align: center;
+    color: #005b5b;
+    padding: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px #aaa;
+}
+
+.navegacion_principal {
+    background-color: #005b5b;
+    padding: 15px;
+    text-align: center;
+}
+
+.navegacion_principal a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen-banner {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Ajusta el tamaño máximo de las imágenes */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; /* Espaciado alrededor de las imágenes */
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.descripcion-tours {
+    background: #e1f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.descripcion-tours p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.regiones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.region {
+    background: #d4edda;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.region h3 {
+    color: #005b5b;
+}
+
+.boton.ver-tours {
+    background-color: #00a651;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.boton.ver-tours:hover {
+    background-color: #008c42;
+}
+
+.formulario {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #005b5b;
+}
+
+.formulario .campo {
+    margin-bottom: 15px;
+}
+
+.input-texto {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-texto:focus {
+    border-color: #00a651;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 166, 81, 0.5);
+}
+
+.boton {
+    background-color: #005b5b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #005b5b;
+    color: #fff;
+}
