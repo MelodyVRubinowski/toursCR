@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/tourcss.css" />
+    <title>Reserva de Tours Costa Rica</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo_principal">Reserva de Tours Costa Rica</h1>
+    </header>
+
+    <nav class="navegacion_principal">
+        <a href="/index.html">Inicio</a>
+        <a href="sobre_nosotros.html">Sobre Nosotros</a>
+        <a href="tours.html">Tours</a>
+        <a href="#contacto">Contáctanos</a>
+    </nav>
+
+    <section class="banner">
+        <h2>Descubre lo Mejor de Costa Rica</h2>
+        <img src="./img/tours.jpeg" alt="Tours en Costa Rica" class="imagen-banner" />
+    </section>
+
+    <main class="contenedor sombra">
+        <h2>Tu Aventura Comienza Aquí</h2>
+        <div class="descripcion-tours">
+            <p>
+                Costa Rica es un destino de ensueño, donde la naturaleza y la aventura se unen en una experiencia 
+                inolvidable. Desde las impresionantes playas del Caribe hasta las montañas cubiertas de selva, 
+                cada rincón de nuestro país te está esperando. ¡Déjanos ayudarte a planear la aventura de tus sueños!
+            
+            </p>
+
+            </div>
+            <a class="boton ver-tours" href="tours.html">Ver Tours</a>
+        </div>
+        <section id="contacto">
+        <section>
+            <h2>Contáctanos</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>¡Queremos Saber de Ti!</legend>
+                    <div class="contenedor_campos">
+                        <div class="campo">
+                            <label for="txtnombre">Nombre Completo:</label>
+                            <input class="input-texto" type="text" name="txtnombre" id="txtnombre" required />
+                        </div>
+                        <div class="campo">
+                            <label for="txttelefono">Teléfono:</label>
+                            <input class="input-texto" type="tel" name="txttelefono" id="txttelefono" required />
+                        </div>
+                        <div class="campo">
+                            <label for="txtemail">Email:</label>
+                            <input class="input-texto" type="email" name="txtemail" id="txtemail" required />
+                        </div>
+                        <div class="campo">
+                            <label for="txtmensaje">Mensaje:</label>
+                            <textarea class="input-texto" name="txtmensaje" id="txtmensaje" rows="5" required></textarea>
+                        </div>
+                    </div>
+                    <input class="boton" type="submit" value="Enviar Mensaje" />
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados. Costa Rica Tours 2024</p>
+    </footer>
+</body>
+</html>
